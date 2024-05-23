@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         '/list':(context) => ListProductPage(),
         '/detail':(context) => DetailPage(),
         '/shop':(context) => ShopCartPage(),
+        '/consumer' : (context) => ConsumerPage(),
       },
     );
   }
